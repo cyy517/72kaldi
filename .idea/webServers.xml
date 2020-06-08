@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f1702304-537a-4284-8de2-7e96041b7275" name="72kaldi" url="http://192.168.1.72">
+        <fileTransfer host="192.168.1.72" port="22" rootFolder="/data1/home/wuyx" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2b885fe7-e265-40d5-a455-d6fb4c6d7225" name="73" url="http://192.168.1.73">
+        <fileTransfer host="192.168.1.73" port="22" rootFolder="/data/home/wuyx" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
